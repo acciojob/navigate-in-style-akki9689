@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+body, h1, p, ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Styling for the navigation bar */
+    nav {
+      background-color: #D3D3D3;
+      padding: 10px;
+    }
+
+    /* Styling for the navigation bar items */
+    nav ul {
+      list-style: none; /* Remove bullets */
+    }
+
+    nav li {
+      display: inline; /* Display items horizontally */
+      margin-right: 1rem; /* Add right margin between items */
+    }
